@@ -134,6 +134,20 @@
 			<version>5.1.37</version>
 		</dependency>
 
+		<!-- HTML 파싱 -->
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.8.3</version>
+		</dependency>
+		
+		<!-- URL로 넘어오는 프로토콜이 허용된 것인지 체크하기 위해 추가 -->
+		<dependency>
+			<groupId>commons-validator</groupId>
+			<artifactId>commons-validator</artifactId>
+			<version>1.5.0</version>
+		</dependency>
+
 		<!-- Test -->
 		<dependency>
 			<groupId>org.springframework</groupId>
